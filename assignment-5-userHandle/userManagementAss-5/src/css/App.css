@@ -1,0 +1,9 @@
+.containers{
+    background-color: #545457;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.containers h1{
+    color: white;
+}
