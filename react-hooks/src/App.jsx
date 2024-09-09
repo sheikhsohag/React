@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import Colorizer from './components/colorize'
-import './assets/css/app.css'
+import { useState, useEffect } from 'react'
+import UseReducer from './components/useReducer/UseReducer'
 
 function App() {
 
 
   return (
     <>
-         <div className='App'>
-             <Colorizer/>
-         </div>
+      <UseReducer/>
     </>
   )
 }
